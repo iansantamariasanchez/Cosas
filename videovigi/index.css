@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(207, 118, 35);
+}
+
+.titu {
+    text-align: center;
+    font-size: x-large;
+    font-family: Arial;
+}
+
+.lo {
+    float: left;
+}
+
+.logo {
+    width: 100px; 
+    height: 100px;
+    position: absolute;
+}
+
+.wrapper {
+    margin-left: 10%;
+    overflow: hidden;
+    width: 80%;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    background-color: rgb(170, 161, 161);
+    border-radius: 20px;
+}
+
+.wrapper div {
+
+    /* para evitar el margen superior de la primera fila */
+    margin-top:-10px;
+    text-align: center;
+
+}
+
+img .cap {
+    width: 35%;
+    height: 15%;
+    float: left;
+    padding: 2px;
+}
+
+a {
+    padding: 1%;
+}
+
+.clear {
+    clear: both;
+}
